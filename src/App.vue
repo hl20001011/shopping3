@@ -1,7 +1,7 @@
 <template>
   <div id="app">
 <!--    keep-alive:使对应组件保持活性，不会再destoryed函数下被销毁-->
-    <keep-alive exclude="Detail">
+    <keep-alive >
      <router-view></router-view>
     </keep-alive>
     <mains></mains>
